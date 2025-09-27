@@ -1,8 +1,7 @@
 return {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Seed Stages Event", },
-    
+    BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     GET_HONEY = true,
@@ -24,7 +23,7 @@ return {
         -- "Legendary Egg",
         "Rare Egg", "Uncommon Egg"},
     PLANT_EGGS = { "Jungle Egg", 
-         -- "Rare Egg", "Fall Egg", "Anti Bee Egg", "Bug Egg", "Legendary Egg",  "Common Summer Egg",  "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
+         -- "Rare Eggg", "Fall Eggg", "Anti Bee Eggg", "Bug Eggg", "Legendary Egg",  "Common Summer Egg",  "Enchanted Eggg", "Sprout Egg", "Gourmet Eggg", "Corrupted Zen Eggg", "Zen Eggg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
     },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
