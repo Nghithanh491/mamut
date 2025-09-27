@@ -1,7 +1,7 @@
 return {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Seed Stages Event", "",},
+    BUY_EVENT_SHOP = { "Fall Egg", "Red Panda"},
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
@@ -20,12 +20,11 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
 
-    BUY_EGGS = { "Bug Eggg", "Bee Egg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Eggg",
+    BUY_EGGS = { "Bug EgGg", "Bee EgGg", "Paradise EgGg", "Mythical EgGg", "Rare Summer EgGg", "Common Summer EgGg",
         -- "Legendary Egg",
         "Rare Egg", "Uncommon Egg"},
-    PLANT_EGGS = { "Jungle Egg", "Anti Bee EgGg", "Fall EgGg", 
-      "Rare Egg", "Common Summer Egg", "Bug Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
-         -- "Legendary Egg",
+    PLANT_EGGS = { "Jungle Egg", 
+         -- "Rare Egg", "Fall Egg", "Anti Bee Egg", "Bug Egg", "Legendary Egg",  "Common Summer Egg",  "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
     },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
@@ -35,7 +34,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Tiger", "Chimpanzee","Fortune Squirrel", "Silver Dragonfly",  "Firefly", "Mizuchi", "Red Panda", "Barn Owl", "Swan", ["Marmot"] = 5, ["Space Squirrel"] = 3, ["Sugar Glider"] = 5, "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, ["Shroomie"] = 1, ["Cardinal"] = 1, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Tiger", "Chimpanzee", "Silver Dragonfly",  "Firefly", "Mizuchi",  "Red Panda", "Barn Owl", "Swan", ["Marmot"] = 5, "Space Squirrel", ["Sugar Glider"] = 5, "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, ["Shroomie"] = 1, ["Cardinal"] = 1, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
