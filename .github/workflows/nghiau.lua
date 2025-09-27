@@ -1,7 +1,7 @@
 return {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Fall Eggg", "Redd Panda"},
+    BUY_EVENT_SHOP = { "Seed Stages Event", "Re"},
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
@@ -23,7 +23,7 @@ return {
     BUY_EGGS = { "Bug Eggg", "Bee Egg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Eggg",
         -- "Legendary Egg",
         "Rare Egg", "Uncommon Egg"},
-    PLANT_EGGS = { "Anti Bee Egg", "Fall Egg", 
+    PLANT_EGGS = { "Jungle Egg', "Anti Bee EgGg", "Fall EgGg", 
       "Rare Egg", "Common Summer Egg", "Bug Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
          -- "Legendary Egg",
     },
@@ -35,7 +35,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Red Panda", "Barn Owl", "Swan", ["Marmot"] = 5, "Space Squirrel", ["Sugar Glider"] = 5, "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, ["Shroomie"] = 1, ["Cardinal"] = 1, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Tiger", "Chimpanzee","Fortune Squirrel", "Silver Dragonfly",  "Firefly", "Mizuchi", "Red Panda", "Barn Owl", "Swan", ["Marmot"] = 5, "Space Squirrel", ["Sugar Glider"] = 5, "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, ["Shroomie"] = 1, ["Cardinal"] = 1, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
