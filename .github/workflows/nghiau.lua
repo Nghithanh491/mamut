@@ -70,7 +70,7 @@ return {
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 5, ["Bear Bee"] = 5, ["Tanchozuru"] = 5 },
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
-    SHOW_WEBHOOK_USERNAME = false,
+    SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
     KICK_AFTER_GIFT_PET = false,
     GIFT_USERNAME = {},
