@@ -25,7 +25,7 @@ return {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
 
     BUY_EGGS = { "Jungle Egg", 
-    -- "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
+    -- "Bug Eggg", "Bee Eggg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Eggg",
         -- "Legendary Egg",
         "Rare Egg", "Uncommon Egg"},
     PLANT_EGGS = { "Jungle Egg", "Anti Bee Egg",
