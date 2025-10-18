@@ -22,15 +22,15 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
 
-    BUY_EGGS = { "Spooky Egg", "Jungle Eggg", "Bug Egg", "Bee Eggg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Eggg", "Rare Eggg", "Uncommon Eggg"},
-    PLANT_EGGS = { "Spooky Egg", },
+    BUY_EGGS = { "Spooky Egg", "Jungle Eggg", "Bug Eggg", "Bee Eggg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Eggg", "Rare Eggg", "Uncommon Eggg"},
+    PLANT_EGGS = { "Spooky Egg",},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Headless Horseman", ["Bat-A"]=5,["Bone Dog-A"]=5,["Black Cat"] =5, ["Spider-A"] =5,"Reaper","Fortune Squirrel", "Chubby Chipmunk", "Chinchilla", "Tiger", "Chimpanzee-A", "Red Panda", "Barn Owl-A", "Swan", "Space Squirrel-A", "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle-A", "Green Bean-A", "Lemon Lion-A", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Lich", "Hex Serpent", "Goat", ["Dark Spriggan"] = 5, "Headless Horseman", ["Bat"]=5,["Bone Dog"]=5,["Black Cat"] =5, ["Spider"] =5,"Reaper","Fortune Squirrel", "Chubby Chipmunk", "Chinchilla", "Tiger", "Chimpanzee", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
@@ -41,9 +41,9 @@ return {
                       ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
                       ["Starfish"] = 5, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                       ["Praying Mantis"] = 5,
-                      ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
+                      ["Rooster"] = 10, ["Seal"] = 3, ["Chicken"] = 2,
                      ["Peacock"] = 3, ["Ostrich"] = 4, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara", "Mizuchi","Silver Dragonfly"},
-    KEEP_PETS_WEIGHT = 8,
+    KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8},
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish" },
