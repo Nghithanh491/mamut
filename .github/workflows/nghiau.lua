@@ -4,8 +4,8 @@ return {
     BUY_EVENT_SHOP = { "Safari Egg" },
     DISABLE_REAPER_EVENT = false,
     
-    MAX_PLANTS = 100,
-    DESTROY_UNTIL_MIN_PLANTS = 80,
+    MAX_PLANTS = 180,
+    DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -17,13 +17,13 @@ return {
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     MAX_REBIRTH_SHECKLES = 0,
-    ADD_FRIEND = true,
+    ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
     COLLECT_FRUIT_PER_SECOND = 3,
 
-    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
     
-    BUY_EGGS = { "Jungle EgGg", "Bug EgGg", "Bee EggG", "Paradise EggG", "Mythical EgGg", "Rare Summer EgG", "Common Summer EggG", "Rare Egg", "Uncommon EgGg" },
+    BUY_EGGS = { "Jungle Egg", "Bug EgGg", "Bee EggG", "Paradise EggG", "Mythical EgGg", "Rare Summer EgG", "Common Summer EggG", "Rare Egg", "Uncommon EgGg" },
     PLANT_EGGS = { "Safari Egg", },
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
