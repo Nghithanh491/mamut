@@ -31,7 +31,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-     KEEP_PETS = {  "Elephant", "Rhino", "Giraffe" "Mummy", "Lich", "Hex Serpent", "Headless Horseman", "Reaper", "Fortune Squirrel", "Chinchilla", "Tiger",  "Red Panda", "Barn Owl", "Swan", "Phoenix", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+     KEEP_PETS = {  "Elephant", "Black Cat", "Rhino", "Giraffe" "Mummy", "Lich", "Hex Serpent", "Headless Horseman", "Reaper", "Fortune Squirrel", "Chinchilla", "Tiger",  "Red Panda", "Barn Owl", "Swan", "Phoenix", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
