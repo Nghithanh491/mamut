@@ -21,7 +21,7 @@ return {
     OPEN_ALL_SEED_PACK = true,
     COLLECT_FRUIT_PER_SECOND = 3,
 
-    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
     
     BUY_EGGS = { "Jungle Eggg", "Bug Eggg", "Bee Eggg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Eggg", "Rare Eggg", "Uncommon Eggg" },
     PLANT_EGGS = { "Safari Egg", "Spooky Eggg", "Jungle Eggg", "Fall Eggg", "Enchanted Eggg", "Sprout Eggg", "Gourmet Eggg", "Corrupted Zen Eggg", "Zen Eggg", "Dinosaur Egg", "Primal Eggg", "Anti Bee Egg", "Bee Eggg", "Night Eggg", "Bug Eggg", "Paradise Eggg", "Mythical Eggg", "Common Summer Eggg", "Rare Eggg", "Uncommon Eggg" },
