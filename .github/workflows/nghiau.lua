@@ -1,5 +1,5 @@
 return {
-   -- Event:
+ -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Safari Egg" },
     DISABLE_REAPER_EVENT = false,
@@ -21,17 +21,17 @@ return {
     OPEN_ALL_SEED_PACK = true,
     COLLECT_FRUIT_PER_SECOND = 3,
 
-    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
-    BUY_EGGS = { "Jungle Egg", "Bug EgGg", "Bee EggG", "Paradise EggG", "Mythical EgGg", "Rare Summer EgG", "Common Summer EggG", "Rare Egg", "Uncommon EgGg" },
-    PLANT_EGGS = { "Safari Egg", },
+    BUY_EGGS = { "Jungle Eggg", "Bug Eggg", "Bee Eggg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Eggg", "Rare Eggg", "Uncommon Eggg" },
+    PLANT_EGGS = { "Safari Egg", "Spooky Eggg", "Jungle Eggg", "Fall Eggg", "Enchanted Eggg", "Sprout Eggg", "Gourmet Eggg", "Corrupted Zen Eggg", "Zen Eggg", "Dinosaur Egg", "Primal Eggg", "Anti Bee Egg", "Bee Eggg", "Night Eggg", "Bug Eggg", "Paradise Eggg", "Mythical Eggg", "Common Summer Eggg", "Rare Eggg", "Uncommon Eggg" },
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
     
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-     KEEP_PETS = {  "Elephant", "Black Cat", "Rhino", "Giraffe" "Mummy", "Lich", "Hex Serpent", "Headless Horseman", "Reaper", "Fortune Squirrel", "Chinchilla", "Tiger",  "Red Panda", "Barn Owl", "Swan", "Phoenix", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = {"Elephant", "Black Cat", "Rhino", "Giraffe" "Mummy", "Lich", "Hex Serpent", "Headless Horseman", "Reaper", "Fortune Squirrel", "Chinchilla", "Tiger",  "Red Panda", "Barn Owl", "Swan", "Phoenix", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
@@ -47,7 +47,8 @@ return {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
     
-    EQUIP_PETS = { {"Ghost Bear", 8, 1}, {"Rooster", 8, 2} },
+    
+    EQUIP_PETS = { {"Rooster", 8, 1} },
     LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", "Watering Can", "Levelup Lollipop" },
