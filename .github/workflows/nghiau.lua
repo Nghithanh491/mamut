@@ -26,7 +26,7 @@ return {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
     BUY_EGGS = { "Safari Egg", "Spooky Egg", "Jungle Eggg", "Bug Eggg", "Bee Eggg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer Egg", "Rare Eggg",},
-    PLANT_EGGS = { "Safari Egg", "Spooky Egg", "Common Summer Egg", "Rare Egg", "Safari Egg", "Paradise Egg",},
+    PLANT_EGGS = { "Safari Egg", "Spooky Egg", "Common Summer Egg", "Rare Eggg", "Paradise Egg",},
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
@@ -51,7 +51,7 @@ return {
 		["Peacock"] = 5, ["Ostrich"] = 5, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara",["Golden Lab"] = 8},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
-    EQUIP_PETS = { {"Rooster", 8, 1}, {"Seal", 8, 2}, {"Starfish", 8, 3}},
+    EQUIP_PETS = { {"Rooster", 8, 1},},
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster", "Seal", "Squirrel"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Seal"},  -- Unequip from garden
 
