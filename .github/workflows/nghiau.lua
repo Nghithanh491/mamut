@@ -26,7 +26,7 @@ return {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
     BUY_EGGS = { "Safari Egg", "Spooky EgGg", "Jungle Eggg", "Bug Eggg", "Bee Eggg", "Paradise Eggg", "Mythical Eggg", "Rare Summer Eggg", "Common Summer EgGg", "Rare Eggg",},
-    PLANT_EGGS = { "Safari Egg", "Spooky Egg", "Paradise Egg",},
+    PLANT_EGGS = { "Safari Egg", "Spooky Egg", "Paradise Eggg",},
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
@@ -37,7 +37,7 @@ return {
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
-        "Lobster Thermidor",
+        "Lobster Thermidor", "Crocodile", "Hippo", "Lion",
 		"T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
 		"Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
 		"Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
