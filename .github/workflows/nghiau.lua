@@ -51,7 +51,7 @@ return {
 		["Peacock"] = 5, ["Ostrich"] = 5, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara",["Golden Lab"] = 8},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
-    EQUIP_PETS = { {"Rooster", 8, 1},},
+   EQUIP_PETS = { {"Rooster", 8, 1}, {"Seal", 8, 2}, {"Starfish", 8, 3}},
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster", "Seal", "Squirrel"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Seal"},  -- Unequip from garden
 
