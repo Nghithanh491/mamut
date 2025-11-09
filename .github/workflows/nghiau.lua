@@ -3,6 +3,7 @@ return {
     CRAFT_EVENT = {"Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Spooky Chest", "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Safari Egg","Lion", },
+	SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},  -- Add as many pet names
     DISABLE_REAPER_EVENT = false,
   
     MAX_PLANTS = 150,
