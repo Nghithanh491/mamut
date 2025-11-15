@@ -1,15 +1,19 @@
 return {  
 	  -- Event:
-  BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+  -- Event:
+    CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg"},
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Safari EgOg", "LioOn" },
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
-    CRAFT_EVENT = { "Gem Egg", "Cheetah" },
-    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal" },  -- "Coal" will ignore all types of Coal
-    
-    MAX_PLANTS = 50,
-    DESTROY_UNTIL_MIN_PLANTS = 40,
+    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Coal" },
+  
+    MAX_PLANTS = 100,
+    DESTROY_UNTIL_MIN_PLANTS = 90,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
-	
+
+    PLACE_COSMETIC = { "Cooking Kit" },
+    
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -23,7 +27,7 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Gem Egg", "Safari EgGg", "Spooky EGgg", "Jungle EggG", "Bug EgGg", "Bee EggG", "Paradise EggG", "Mythical EgGg", "Rare Summer EgGg", "Common Summer EggG", "Rare Egg", "Uncommon EGgg"},
+    BUY_EGGS = { "Gem Egg", "Safari EgGg", "Spooky EGgg", "Jungle EggG", "Bug EgGg", "Bee EggG", "Paradise EggG", "Mythical EgGg", "Rare Summer EgGg", "Common Summer EggG", "Rare EgGg", "Uncommon EGgg"},
     PLANT_EGGS = { "Gem Egg","Rare EgGG",},
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
