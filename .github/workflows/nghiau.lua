@@ -25,15 +25,15 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Safari Egg", "Spooky EggG", "Jungle EgGg", "Bug EgGg", "Bee EggG", "Paradise EggG", "Rare Summer EggG", "Common Summer Egg", "Rare Egg",},
-    PLANT_EGGS = { "Safari Egg", "Rare Egg", },
+    BUY_EGGS = { "Safari Eggg", "Spooky EggG", "Jungle EgGg", "Bug EgGg", "Bee EggG", "Paradise EggG", "Rare Summer EggG", "Common Summer Egg", "Rare Egg",},
+    PLANT_EGGS = { "Gem Egg","Safari EgG", "Rare EGgg", },
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = {"Lion", "Hydra", ["Rhino"] = 5, "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", 
+    KEEP_PETS = {"Ruby Squid",  "Diamond Panther", ["Sapphire Macaw"] = 5,  ["Emerald Snake"] = 5, ["Amethyst Beetle"] = 5, ["Topaz Snail"] = 5, "Lion", "Hydra", ["Rhino"] = 5, "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", 
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
