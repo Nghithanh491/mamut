@@ -2,7 +2,7 @@ return {
 	-- Event:
     CRAFT_EVENT = {"Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Spooky Chest", "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Smithing Event",},
+    BUY_EVENT_SHOP = { "Gem Egg",},
     DISABLE_REAPER_EVENT = false,
   
     MAX_PLANTS = 150,
