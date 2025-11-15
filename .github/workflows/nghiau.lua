@@ -1,9 +1,8 @@
 return {  
-	  -- Event:
-  -- Event:
+	 -- Event:
     CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Safari EgOg", "LioOn" },
+    BUY_EVENT_SHOP = { "Safari Egg", "Lion" },
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
     IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Coal" },
   
@@ -27,38 +26,40 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Gem Egg", "Safari EgGg", "Spooky EGgg", "Jungle EggG", "Bug EgGg", "Bee EggG", "Paradise EggG", "Mythical EgGg", "Rare Summer EgGg", "Common Summer EggG", "Rare EgGg", "Uncommon EGgg"},
-    PLANT_EGGS = { "Gem Egg","Rare EgGG",},
+    BUY_EGGS = { "Gem Egg", "Jungle Egg", "Bee Egg", "Common Summer Egg", "Rare Egg", ["Common Egg"] = 30,},
+    PLANT_EGGS = {"Gem Egg",},
     
-    BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 30, ["Coconut"] = 30, ["Bamboo"] = 30, ["Apple"] = 30, ["Pumpkin"] = 30, ["Watermelon"] = 30, ["Daffodil"] = 30, ["Tomato"] = 30, ["Orange Tulip"] = 30, ["Blueberry"] = 50, ["Strawberry"] = 30, ["Carrot"] = 30 },
+  
+  	LIMIT_PLANT_SEED = {["Corn"] = 15, ["Apple"] = 15, ["Tomato"] = 15, ["Blueberry"] = 15, ["Strawberry"] = 15, ["Grape"] = 15, ["Mushroom"] = 15, ["Dragon Fruit"] = 5},  -- { ["Plant Name"] = Plant Amount }
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { ["Topaz Snail"] = 5, ["Amethyst Beetle"] = 5, ["Emerald Snake"] = 5, ["Sapphire Macaw"] = 5,"Goblin Miner", "Ruby Squid", "Diamond Panther", "Lion", ["Zebra"] = 5,["Oxpecker"] = 5,["Giraffe"] = 5, "Hydra", ["Rhino"] = 5, "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", 
+    KEEP_PETS = { "Goblin Miner", ["Topaz Snail"] = 5, ["Amethyst Beetle"] = 5, ["Emerald Snake"] = 5, ["Sapphire Macaw"] = 5, "Ruby Squid", "Diamond Panther", ["Zebra"] = 5,["Oxpecker"] = 5,["Giraffe"] = 5, "Lion", "Hydra", "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", 
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
         "Lobster Thermidor",
 		"T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
-		"Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
+		"Butterfly", "Raccoon", "Queen Bee", "Mega Queen Bee", "Dragonfly", "Red Fox",
 		"Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
-		"Moth", "Moon Cat",
+		"Moon Cat",
 		"Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
 		"Raiju", "Chicken Zombie", ["Wasp"] = 5, ["Tarantula Hawk"] = 5,
-		"Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Gorilla Chef"] = 2,
+		"Axolotl", "Echo Frog", "Hamster", "Maneki-neko",
 		"Koi", 
-		"Starfish", ["Kappa"] = 1, ["Tanchozuru"] = 2,
-		["Praying Mantis"] = 5,
-		["Rooster"] = 10, ["Seal"] = 3, ["Chicken"] = 2,
-		["Peacock"] = 5, ["Ostrich"] = 5, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara", "Mizuchi", "Silver Dragonfly"},
+		["Starfish"] = 12, 
+		["Rooster"] = 20, ["Seal"] = 3,
+		["Peacock"] = 5, ["Ostrich"] = 5, ["Sunny-Side Chicken"] = 2, "Capybara"},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
-    EQUIP_PETS = { {"Rooster", 8, 1}, {"Starfish", 8, 2}},
-    USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster",},
+    EQUIP_PETS = {{"Starfish", 8, 1}, {"Rooster", 8, 2}, },
+    LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
+    USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish",},  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10, ["Trading Ticket"] = 100},
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Trading Ticket"] = 20, "Watering Can", "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "",
