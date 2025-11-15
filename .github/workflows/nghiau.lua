@@ -2,7 +2,7 @@ return {
 	  -- Event:
     CRAFT_EVENT = {"Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Gem Egg", "Safari Egg", "Lion"},
+    BUY_EVENT_SHOP = { "Gem Egg",},
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
   
     MAX_PLANTS = 150,
@@ -25,8 +25,8 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg"},
-    PLANT_EGGS = { "Gem Egg",},
+    BUY_EGGS = { "Gem Egg", "Safari EgGg", "Spooky EGgg", "Jungle EggG", "Bug EgGg", "Bee EggG", "Paradise EggG", "Mythical EgGg", "Rare Summer EgGg", "Common Summer EggG", "Rare Egg", "Uncommon EGgg"},
+    PLANT_EGGS = { "Gem Egg","Rare EgGG",},
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
