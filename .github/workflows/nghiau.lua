@@ -1,12 +1,12 @@
 return {  
-	-- Event:
+	  -- Event:
     CRAFT_EVENT = {"Anti Bee Egg"},
-    BUY_TRAVELING_MERCHANT = { "Spooky Chest", "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Gem Egg",},
-    DISABLE_REAPER_EVENT = false,
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Gem Egg", "Safari Egg", "Lion"},
+    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
   
     MAX_PLANTS = 150,
-    DESTROY_UNTIL_MIN_PLANTS = 120,
+    DESTROY_UNTIL_MIN_PLANTS = 125,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
@@ -17,23 +17,23 @@ return {
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
-    EXTRA_PET_INVENTORY_SLOTS = 3,
+    EXTRA_PET_INVENTORY_SLOTS = 5,
     MAX_REBIRTH_SHECKLES = 0,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
-    COLLECT_FRUIT_PER_SECOND = 5,
+    COLLECT_FRUIT_PER_SECOND = 3,
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Safari Eggg", "Spooky EggG", "Jungle EgGg", "Bug EgGg", "Bee EggG", "Paradise EggG", "Rare Summer EggG", "Common Summer Egg", "Rare Egg",},
-    PLANT_EGGS = { "Gem Egg","Safari EgG", "Rare EGgg", },
+    BUY_EGGS = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg"},
+    PLANT_EGGS = { "Gem Egg",},
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = {"Ruby Squid",  "Diamond Panther", ["Sapphire Macaw"] = 5,  ["Emerald Snake"] = 5, ["Amethyst Beetle"] = 5, ["Topaz Snail"] = 5, "Lion", "Hydra", ["Rhino"] = 5, "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", 
+    KEEP_PETS = { ["Topaz Snail"] = 5, ["Amethyst Beetle"] = 5, ["Emerald Snake"] = 5, ["Sapphire Macaw"] = 5, "Ruby Squid", "Diamond Panther", "Lion", ["Zebra"] = 5,["Oxpecker"] = 5,["Giraffe"] = 5, "Hydra", ["Rhino"] = 5, "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", 
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
@@ -46,16 +46,17 @@ return {
 		"Raiju", "Chicken Zombie", ["Wasp"] = 5, ["Tarantula Hawk"] = 5,
 		"Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Gorilla Chef"] = 2,
 		"Koi", 
-		["Starfish"] = 10, ["Tanchozuru"] = 5,
-		["Rooster"] = 8, ["Seal"] = 3,
-		["Peacock"] = 5, ["Ostrich"] = 5, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara",["Golden Lab"] = 8},
+		"Starfish", ["Kappa"] = 1, ["Tanchozuru"] = 2,
+		["Praying Mantis"] = 5,
+		["Rooster"] = 10, ["Seal"] = 3, ["Chicken"] = 2,
+		["Peacock"] = 5, ["Ostrich"] = 5, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara", "Mizuchi", "Silver Dragonfly"},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
-    EQUIP_PETS = {{"Starfish", 8, 2},{"Rooster", 8, 1} },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish",},
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Golden Lab", },  -- Unequip from garden
+    EQUIP_PETS = { {"Rooster", 8, 1}, {"Starfish", 8, 2}},
+    USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster",},
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish",},  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10, ["Trading Ticket"] = 20},
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10, ["Trading Ticket"] = 100},
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "",
