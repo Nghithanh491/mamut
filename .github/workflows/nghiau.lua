@@ -1,9 +1,9 @@
 return {  
 	  -- Event:
-    CRAFT_EVENT = {"Anti Bee Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Gem Egg",},
+    BUY_EVENT_SHOP = { "Safari EgGg", "LioGn" },
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
+    CRAFT_EVENT = { "Gem Egg", "Cheetah" },
   
     MAX_PLANTS = 150,
     DESTROY_UNTIL_MIN_PLANTS = 125,
