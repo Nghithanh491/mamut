@@ -1,17 +1,15 @@
 return {  
 	  -- Event:
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Safari EgGg", "LioGn" },
+  BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
     CRAFT_EVENT = { "Gem Egg", "Cheetah" },
-  
-    MAX_PLANTS = 150,
-    DESTROY_UNTIL_MIN_PLANTS = 125,
+    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Coal" },  -- "Coal" will ignore all types of Coal
+    
+    MAX_PLANTS = 50,
+    DESTROY_UNTIL_MIN_PLANTS = 40,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
-
-    PLACE_COSMETIC = { "Cooking Kit" },
-    
+	
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -33,7 +31,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { ["Topaz Snail"] = 5, ["Amethyst Beetle"] = 5, ["Emerald Snake"] = 5, ["Sapphire Macaw"] = 5, "Ruby Squid", "Diamond Panther", "Lion", ["Zebra"] = 5,["Oxpecker"] = 5,["Giraffe"] = 5, "Hydra", ["Rhino"] = 5, "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", 
+    KEEP_PETS = { ["Topaz Snail"] = 5, ["Amethyst Beetle"] = 5, ["Emerald Snake"] = 5, ["Sapphire Macaw"] = 5,"Goblin Miner", "Ruby Squid", "Diamond Panther", "Lion", ["Zebra"] = 5,["Oxpecker"] = 5,["Giraffe"] = 5, "Hydra", ["Rhino"] = 5, "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", 
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
