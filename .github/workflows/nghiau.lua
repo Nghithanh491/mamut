@@ -54,7 +54,7 @@ return {
 		["Peacock"] = 5, ["Ostrich"] = 5, ["Sunny-Side Chicken"] = 2, "Capybara"},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
-    EQUIP_PETS = {{"Starfish", 8, 1}, {"Rooster", 8, 2}, },
+    EQUIP_PETS = {{"Starfish", 8, 2}, {"Rooster", 8, 1}, },
     LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish",},  -- Unequip from garden
