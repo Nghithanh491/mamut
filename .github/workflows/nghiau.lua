@@ -51,7 +51,7 @@ return {
 		"Koi", 
 		["Starfish"] = 12, 
 		["Rooster"] = 20, ["Seal"] = 3,
-		["Peacock"] = 5, ["Ostrich"] = 5, ["Sunny-Side Chicken"] = 2, "Capybara"},
+		["Peacock"] = 10, ["Ostrich"] = 10, ["Sunny-Side Chicken"] = 2, "Capybara"},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
     EQUIP_PETS = {{"Starfish", 8, 2}, {"Rooster", 8, 1}, },
