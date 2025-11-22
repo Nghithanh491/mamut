@@ -1,15 +1,15 @@
 return {  
-	 -- Event:
-    CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg"},
+	CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg", "Gem Chest"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Safari Egg", "Lion", "Trader Event", },
+    BUY_EVENT_SHOP = { "Gem Chest", "Gem Egg", "Safari Egg", "Lion" },
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
-    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Coal" },
+    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Coal" },
   
     MAX_PLANTS = 100,
-    DESTROY_UNTIL_MIN_PLANTS = 90,
+    DESTROY_UNTIL_MIN_PLANTS = 70,
+    DELETE_PLANTS_AFTER_MAX = {},
     KEEP_SEEDS = { "Bone Blossom" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {"Strawberry"},
 
     PLACE_COSMETIC = { "Cooking Kit" },
     
@@ -26,17 +26,17 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Gem Egg", "Jungle Egg", "Bee Egg", "Common Summer Egg", "Rare Egg", ["Common Egg"] = 30,},
-    PLANT_EGGS = {"Gem Egg","Paradise Egg", "Rare Egg",},
+    BUY_EGGS = { "Gem Egg", "Jungle Egg", "Fall Eggg", "Bee Eggg", "Common Summer Eggg", "Rare Summer Eggg", "Rare Egg", ["Common Egg"] = 10, "Uncommon Eggg", "Paradise Egg", "Legendary Eggg", "Mythical Eggg"},
+    PLANT_EGGS = {"Gem Egg", "Paradise Egg", "Rare Egg", "Jungle Egg",},
     
     BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 30, ["Coconut"] = 30, ["Bamboo"] = 30, ["Apple"] = 30, ["Pumpkin"] = 30, ["Watermelon"] = 30, ["Daffodil"] = 30, ["Tomato"] = 30, ["Orange Tulip"] = 30, ["Blueberry"] = 50, ["Strawberry"] = 30, ["Carrot"] = 30 },
   
-  	LIMIT_PLANT_SEED = {["Corn"] = 15, ["Apple"] = 15, ["Tomato"] = 15, ["Blueberry"] = 15, ["Strawberry"] = 15, ["Grape"] = 15, ["Mushroom"] = 15, ["Dragon Fruit"] = 5},  -- { ["Plant Name"] = Plant Amount }
+  	LIMIT_PLANT_SEED = {["Corn"] = 15, ["Apple"] = 10, ["Tomato"] = 15, ["Blueberry"] = 15, ["Strawberry"] = 15, ["Grape"] = 15, ["Dragon Fruit"] = 5, ["Elder Strawberry"] = 1, ["Ember Lily"] = 1, ["Sugar Apple"] = 1, ["Burning Bud"] = 1, ["Giant Pinecone"] = 1, ["Romanesco"] = 1, ["Beanstalk"] = 1, ["Crimson Thorn"] = 1},  -- { ["Plant Name"] = Plant Amount }
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { ["Silver Piggy"] = 5,["Golden Piggy"] = 5,["Clam"] = 5,["Magpie"] = 5,["Bearded Dragon"] = 5,["Sheckling"] = 5,["Pack Mule"] = 5,["Chimera"] = 5,"Goblin Miner", ["Sapphire Macaw"] = 5, "Ruby Squid", "Diamond Panther", ["Zebra"] = 5,["Oxpecker"] = 5,["Giraffe"] = 5, "Lion", "Hydra", "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", 
+    KEEP_PETS = { "Bearded Dragon", "Asteris", "Goblin Miner", "Ruby Squid", "Diamond Panther", "Lion", "Hydra", "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", 
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
@@ -48,16 +48,16 @@ return {
 		"Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
 		"Raiju", "Chicken Zombie", ["Wasp"] = 5, ["Tarantula Hawk"] = 5,
 		"Axolotl", "Echo Frog", "Hamster", "Maneki-neko",
-		"Koi", 
+		"Koi", "Scarlet Macaw",
 		["Starfish"] = 12, 
 		["Rooster"] = 20, ["Seal"] = 3,
-		["Peacock"] = 10, ["Ostrich"] = 10, ["Sunny-Side Chicken"] = 2, "Capybara"},
+		"Peacock", "Ostrich", ["Sunny-Side Chicken"] = 2, "Capybara"},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
-    EQUIP_PETS = {{"Starfish", 8, 2}, {"Rooster", 8, 1}, },
-    LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
-    USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster"},
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish",},  -- Unequip from garden
+    EQUIP_PETS = {{"Starfish", 8, 1}, {"Rooster", 8, 2}, },
+    LEVELUP_LOLLIPOP_MIN_LEVEL = 50,
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Rooster"},
+    REMOVE_PET_MAX_UPGRADE = { "Starfish",},  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Trading Ticket"] = 20, "Watering Can", "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
@@ -73,4 +73,5 @@ return {
     KICK_AFTER_GIFT_PET = false,
     GIFT_USERNAME = {},
     GIFT_PET = {},
+}
 }
