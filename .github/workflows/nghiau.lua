@@ -1,12 +1,11 @@
 return {  
-	CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg", "Gem Chest"},
+-- Event:
+    CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg", "Gem Chest"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Gem Chest", "Gem Egg", "Safari Egg", "Lion" },
-    SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
-    IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Coal" },
+	PLANT_EVENT_TREES = true,
   
-    MAX_PLANTS = 100,
-    DESTROY_UNTIL_MIN_PLANTS = 70,
+    MAX_PLANTS = 150,
+    DESTROY_UNTIL_MIN_PLANTS = 130,
     DELETE_PLANTS_AFTER_MAX = {},
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {"Strawberry"},
@@ -26,17 +25,17 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Gem Egg", "Jungle Egg", "Fall Eggg", "Bee Eggg", "Common Summer Eggg", "Rare Summer Eggg", "Rare Egg", ["Common Egg"] = 10, "Uncommon Eggg", "Paradise Egg", "Legendary Eggg", "Mythical Eggg"},
-    PLANT_EGGS = {"Gem Egg", "Paradise Egg", "Rare Egg", "Jungle Egg",},
+    BUY_EGGS = { "Gem Egg", "Jungle Egg", "Fall Egg", "Bee Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", ["Common Egg"] = 10, "Uncommon Egg", "Paradise Egg", "Legendary Egg", "Mythical Egg"},
+    PLANT_EGGS = {"Paradise Egg","Gem Egg","Jungle Egg",},
     
-    BUY_SEED_SHOP = { "Great Pumpkin", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 30, ["Coconut"] = 30, ["Bamboo"] = 30, ["Apple"] = 30, ["Pumpkin"] = 30, ["Watermelon"] = 30, ["Daffodil"] = 30, ["Tomato"] = 30, ["Orange Tulip"] = 30, ["Blueberry"] = 50, ["Strawberry"] = 30, ["Carrot"] = 30 },
+    BUY_SEED_SHOP = { ["Great Pumpkin"] = 2, ["Crimson Thorn"] = 2, ["Romanesco"] = 2, ["Elder Strawberry"] = 2, ["Giant Pinecone"] = 2, ["Burning Bud"] = 2, ["Sugar Apple"] = 5, ["Ember Lily"] =5, ["Beanstalk"] = 5, ["Cacao"] = 10, ["Pepper"] = 10, ["Mushroom"] = 10, ["Grape"] = 5, ["Mango"] = 10, ["Dragon Fruit"] = 5, ["Cactus"] = 5, ["Corn"] = 30, ["Coconut"] = 30, ["Bamboo"] = 30, ["Apple"] = 30, ["Pumpkin"] = 30, ["Watermelon"] = 30, ["Daffodil"] = 30, ["Tomato"] = 30, ["Orange Tulip"] = 30, ["Blueberry"] = 50, ["Strawberry"] = 30, ["Carrot"] = 30 },
   
-  	LIMIT_PLANT_SEED = {["Corn"] = 15, ["Apple"] = 10, ["Tomato"] = 15, ["Blueberry"] = 15, ["Strawberry"] = 15, ["Grape"] = 15, ["Dragon Fruit"] = 5, ["Elder Strawberry"] = 1, ["Ember Lily"] = 1, ["Sugar Apple"] = 1, ["Burning Bud"] = 1, ["Giant Pinecone"] = 1, ["Romanesco"] = 1, ["Beanstalk"] = 1, ["Crimson Thorn"] = 1},  -- { ["Plant Name"] = Plant Amount }
+  	LIMIT_PLANT_SEED = {["Corn"] = 10, ["Apple"] = 10, ["Tomato"] = 10, ["Blueberry"] = 10, ["Strawberry"] = 10, ["Grape"] = 10, ["Dragon Fruit"] = 5, ["Elder Strawberry"] = 1, ["Ember Lily"] = 1, ["Sugar Apple"] = 1, ["Burning Bud"] = 1, ["Giant Pinecone"] = 1, ["Romanesco"] = 1, ["Beanstalk"] = 1, ["Crimson Thorn"] = 1},  -- { ["Plant Name"] = Plant Amount }
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Bearded Dragon", "Asteris", "Goblin Miner", "Ruby Squid", "Diamond Panther", "Lion", "Hydra", "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", 
+    KEEP_PETS = { ["Magpie"] = 5, ["Pack Mule"] = 5,"Chimera", "Bearded Dragon", "Goblin Miner", "Ruby Squid", "Diamond Panther", "Lion", "Hydra", "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", 
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
