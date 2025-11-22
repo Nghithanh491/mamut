@@ -2,7 +2,7 @@ return {
 	 -- Event:
     CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg"},
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Safari Egg", "Lion" },
+    BUY_EVENT_SHOP = { "Safari Egg", "Lion", "Trader Event", },
     SUBMIT_SAFARI_JOE_PET = {"Giraffe", "Zebra", "Oxpecker"},
     IGNORE_SUBMIT_EVENT_FORGE = { "Gem Egg", "Safari Egg", "Spooky Egg", "Jungle Egg", "Fall Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Coal" },
   
