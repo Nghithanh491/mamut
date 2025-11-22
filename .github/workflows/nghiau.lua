@@ -74,4 +74,4 @@ return {
     GIFT_USERNAME = {},
     GIFT_PET = {},
 }
-}
+
