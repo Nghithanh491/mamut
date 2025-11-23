@@ -26,7 +26,7 @@ return {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
     BUY_EGGS = { "Gem Egg", "Jungle Eggg", "Fall Eggg", "Bee Eggg", "Common Summer Eggg", "Rare Summer Eggg", "Rare Egg", ["Common Egg"] = 10, "Uncommon Eggg", "Paradise Egg", "Legendary Eggg", "Mythical Eggg"},
-    PLANT_EGGS = {"Gem Egg","Paradise Egg","Rare Egg","Jungle Egg",},
+    PLANT_EGGS = {"Paradise Egg","Gem Egg","Rare Egg","Jungle Egg",},
     
     BUY_SEED_SHOP = { ["Great Pumpkin"] = 2, ["Crimson Thorn"] = 2, ["Romanesco"] = 2, ["Elder Strawberry"] = 2, ["Giant Pinecone"] = 2, ["Burning Bud"] = 2, ["Sugar Apple"] = 5, ["Ember Lily"] =5, ["Beanstalk"] = 5, ["Cacao"] = 10, ["Pepper"] = 10, ["Mushroom"] = 10, ["Grape"] = 5, ["Mango"] = 10, ["Dragon Fruit"] = 5, ["Cactus"] = 5, ["Corn"] = 30, ["Coconut"] = 30, ["Bamboo"] = 30, ["Apple"] = 30, ["Pumpkin"] = 30, ["Watermelon"] = 30, ["Daffodil"] = 30, ["Tomato"] = 30, ["Orange Tulip"] = 30, ["Blueberry"] = 50, ["Strawberry"] = 30, ["Carrot"] = 30 },
   
