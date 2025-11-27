@@ -26,7 +26,7 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
-    BUY_EGGS = { "Gem Egg", "Jungle Egg", "Fall Egg", "Bee Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", ["Common Egg"] = 10, ["Uncommon Egg"] = 10, "Paradise Egg", "Legendary Egg", "Mythical Egg", "Bug Egg"},
+    BUY_EGGS = { "Gem Egg", "Jungle EgGg", "Fall EggG", "Bee Egg", "Common Summer EggG", "Rare Summer EgGg", "Rare Egg", ["Common Egg"] = 10, ["Uncommon Egg"] = 10, "Paradise Egg", "Legendary Egg", "Mythical Egg", "Bug Egg"},
     PLANT_EGGS = { "Paradise Egg","Gem Egg" ,"Safari Egg",   "Enchanted Egg", "Anti Bee Egg", "Spooky Egg",  "Jungle Egg", "Bug Egg"},
     
     BUY_SEED_SHOP = { ["Great Pumpkin"] = 2, ["Crimson Thorn"] = 2, ["Romanesco"] = 2, ["Elder Strawberry"] = 2, ["Giant Pinecone"] = 2, ["Burning Bud"] = 2, ["Sugar Apple"] = 5, ["Ember Lily"] =5, ["Beanstalk"] = 5, ["Cacao"] = 10, ["Pepper"] = 10, ["Mushroom"] = 10, ["Grape"] = 5, ["Mango"] = 10, ["Dragon Fruit"] = 5, ["Cactus"] = 5, ["Corn"] = 30, ["Coconut"] = 30, ["Bamboo"] = 30, ["Apple"] = 30, ["Pumpkin"] = 30, ["Watermelon"] = 30, ["Daffodil"] = 30, ["Tomato"] = 30, ["Orange Tulip"] = 30, ["Blueberry"] = 50, ["Strawberry"] = 30, ["Carrot"] = 30 },
@@ -55,7 +55,7 @@ return {
 		"Peacock", "Ostrich", ["Sunny-Side Chicken"] = 2, "Capybara"},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
-    EQUIP_PETS = {{"Queen Bee", 8, 1},{"Honey Bee", 8, 2},{"Petal Bee", 8, 3},{"Bee", 8, 4}, },
+    EQUIP_PETS = {{"Rooster", 8, 1},{"Honey Bee", 8, 2},{"Petal Bee", 8, 3},{"Bee", 8, 4}, },
     LEVELUP_LOLLIPOP_MIN_LEVEL = 50,
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Rooster"},
     REMOVE_PET_MAX_UPGRADE = { "Starfish",},  -- Unequip from garden
