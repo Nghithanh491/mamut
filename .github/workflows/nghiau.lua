@@ -27,7 +27,7 @@ return {
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
     BUY_EGGS = { "Gem Egg", "Jungle Egg", "Fall Egg", "Bee Egg", "Common Summer Egg", "Rare Summer Egg", "Rare Egg", ["Common Egg"] = 10, ["Uncommon Egg"] = 10, "Paradise Egg", "Legendary Egg", "Mythical Egg", "Bug Egg"},
-    PLANT_EGGS = {"Enchanted Egg", "Paradise Egg","Gem Egg" ,"Safari Egg",   "Enchanted Egg", "Anti Bee Egg", "Spooky Egg",  "Jungle Egg", "Bug Egg"},
+    PLANT_EGGS = { "Paradise Egg","Gem Egg" ,"Safari Egg",   "Enchanted Egg", "Anti Bee Egg", "Spooky Egg",  "Jungle Egg", "Bug Egg"},
     
     BUY_SEED_SHOP = { ["Great Pumpkin"] = 2, ["Crimson Thorn"] = 2, ["Romanesco"] = 2, ["Elder Strawberry"] = 2, ["Giant Pinecone"] = 2, ["Burning Bud"] = 2, ["Sugar Apple"] = 5, ["Ember Lily"] =5, ["Beanstalk"] = 5, ["Cacao"] = 10, ["Pepper"] = 10, ["Mushroom"] = 10, ["Grape"] = 5, ["Mango"] = 10, ["Dragon Fruit"] = 5, ["Cactus"] = 5, ["Corn"] = 30, ["Coconut"] = 30, ["Bamboo"] = 30, ["Apple"] = 30, ["Pumpkin"] = 30, ["Watermelon"] = 30, ["Daffodil"] = 30, ["Tomato"] = 30, ["Orange Tulip"] = 30, ["Blueberry"] = 50, ["Strawberry"] = 30, ["Carrot"] = 30 },
   
@@ -47,7 +47,7 @@ return {
 		"Moon Cat",
     	"Bee", "Honey Bee", "Petal Bee", "Queen Bee",
 		"Night Owl", "Blood Owl","Blood Kiwi", "Cooked Owl",
-		"Raiju", "Chicken Zombie", "Wasp-", "Tarantula Hawk-",
+		"Raiju", "Chicken Zombie", "Wasp", "Tarantula Hawk",
 		"Axolotl", "Echo Frog", "Hamster", "Maneki-neko",
 		"Koi", "Scarlet Macaw",
 		["Starfish"] = 12, 
