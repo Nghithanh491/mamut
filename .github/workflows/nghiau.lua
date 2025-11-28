@@ -56,7 +56,7 @@ return {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
     EQUIP_PETS = {{"Rooster", 8, 1},{"Honey Bee", 8, 2},{"Petal Bee", 8, 3},{"Bee", 8, 4}, },
-    LEVELUP_LOLLIPOP_MIN_LEVEL = 50,
+    -- LEVELUP_LOLLIPOP_MIN_LEVEL = 50,
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Rooster"},
     REMOVE_PET_MAX_UPGRADE = { "Starfish",},  -- Unequip from garden
 
