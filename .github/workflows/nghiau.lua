@@ -36,7 +36,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { ["Magpie"] = 5, ["Pack Mule"] = 5, "Chimera", "Bearded Dragon", "Goblin Miner", "Ruby Squid", "Diamond Panther", "Lion", "Hydra", "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", 
+    KEEP_PETS = { "Emerald Snake"] = 5, ["Goat"] = 5, ["Magpie"] = 5, ["Pack Mule"] = 5, "Chimera", "Bearded Dragon", "Goblin Miner", "Ruby Squid", "Diamond Panther", "Lion", "Hydra", "Elephant", "Mummy", "Lich", "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel", 
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 	
         ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", 
         "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", 
