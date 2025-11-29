@@ -53,7 +53,7 @@ return {
 		["Starfish"] = 12, 
 		["Rooster"] = 20, ["Seal"] = 3,
 		"Peacock", "Ostrich", ["Sunny-Side Chicken"] = 2, "Capybara"},
-    KEEP_PETS_WEIGHT = 7,
+    KEEP_PETS_WEIGHT = 35,
     KEEP_PETS_AGE = 75,
     EQUIP_PETS = {{"Rooster", 8, 1},{"Honey Bee", 8, 2},{"Petal Bee", 8, 3},{"Bee", 8, 4}, },
     -- LEVELUP_LOLLIPOP_MIN_LEVEL = 50,
