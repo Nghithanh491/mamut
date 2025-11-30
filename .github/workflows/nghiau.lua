@@ -28,9 +28,9 @@ return {
     BUY_COSMETIC_SHOP = {["Cooking Kit"] = 3},
 
     BUY_EGGS = {
-        "Gem Egg", "Jungle Egg", "Fall Egg", "Bee Egg", "Common Summer Egg", "Rare Egg", "Paradise Egg", "Bug Egg", "Mythical Egg", ["Common Egg"] = 10, ["Uncommon Egg"] = 10,
+        "Gem Egg", "Jungle Egg", "Fall Eggg", "Bee Egg", "Common Summer Eggg", "Rare Eggg", "Paradise Egg", "Bug Eggg", "Mythical Eggg", ["Common Egg"] = 10, ["Uncommon Egg"] = 10,
     },
-    PLANT_EGGS = { "Anti Bee Egg", "Gem Egg", "Jungle Egg", "Paradise Egg", "Bug Egg",},
+    PLANT_EGGS = {  "Paradise Egg", "Gem Egg", "Anti Bee Egg",  "Jungle Egg", "Bug Egg", "Fall Egg",},
     
     BUY_SEED_SHOP = { "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 	LIMIT_PLANT_SEED = {
@@ -67,7 +67,7 @@ return {
         ["Starfish"] = 12, ["Rooster"] = 20, ["Seal"] = 3,
         "Peacock", "Ostrich", ["Sunny-Side Chicken"] = 8, "Capybara"
     },
-    KEEP_PETS_WEIGHT =20,
+    KEEP_PETS_WEIGHT =40,
     KEEP_PETS_AGE = 75,
 
     EQUIP_PETS = { {"Starfish", 8,2}, {"Petal Bee", 8,1}, {"Honey Bee", 8, 3},{"Bee", 8, 4}, {"Rooster", 8, 5}, },
