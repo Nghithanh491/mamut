@@ -1,18 +1,14 @@
 return {  
  -- Event:
-    CRAFT_EVENT = {"Anti Bee Egg",},
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", },
-	PLANT_EVENT_TREES = true,
-  
-  	GET_HONEY = true,
-    MAX_PLANTS = 120,
-    DESTROY_UNTIL_MIN_PLANTS = 90,
-    DELETE_PLANTS_AFTER_MAX = {},
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    PLANT_EVENT_TREES = true,
+    
+    MAX_PLANTS = 200,
+    DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = {"Strawberry"},
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
     PLACE_COSMETIC = { "Cooking Kit" },
-    
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
