@@ -32,7 +32,7 @@ return {
     SKIP_HARVEST_MUTATIONS = {},
 
      KEEP_PETS = {
-        ["Emerald Snake"] = 5, "Asteris", "Chimera", ["Camel"] = 5, ["Goat"] = 5, ["Magpie"] = 10, ["Pack Mule"] = 5, "Bearded Dragon", "Goblin Miner", 
+        "Asteris", "Chimera", ["Camel"] = 5, ["Goat"] = 5, ["Magpie"] = 5, ["Pack Mule"] = 5, "Bearded Dragon", "Goblin Miner", 
         "Ruby Squid", "Diamond Panther", "Lion", "Hydra", "Elephant", "Mummy", "Lich", 
         "Hex Serpent", ["Ghost Bear"] = 8, "Headless Horseman", "Reaper", "Fortune Squirrel",
         "Chinchilla", "Tiger", "Barn Owl", "Swan", "Phoenix", 
@@ -45,9 +45,9 @@ return {
         "Bee", "Honey Bee", "Petal Bee", "Queen Bee",
         
         "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Raiju", "Chicken Zombie", 
-        "Wasp", "Tarantula Hawk", "Axolotl", "Echo Frog", "Hamster", "Maneki-neko",
+        ["Wasp"] = 5, ["Tarantula Hawk"] = 5, "Axolotl", "Echo Frog", "Hamster", "Maneki-neko",
         "Koi", "Scarlet Macaw",
-        ["Starfish"] = 12, ["Rooster"] = 20, ["Seal"] = 3,
+        ["Starfish"] = 8, ["Rooster"] = 8, ["Seal"] = 3,
         "Peacock", "Ostrich", ["Sunny-Side Chicken"] = 8, "Capybara"
     },
     KEEP_PETS_WEIGHT =40,
