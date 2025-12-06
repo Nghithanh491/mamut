@@ -127,6 +127,7 @@ LIMIT_PLANT_SEED = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = {
+		"Mistletoad",
     "Krampus",
 	 ["Frost Dragon"] = 10,
     "Camel",
