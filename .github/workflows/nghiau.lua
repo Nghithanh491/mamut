@@ -1,17 +1,15 @@
 return {  
- -- Event:
-    CRAFT_EVENT = {"Anti Bee Egg", "Gem Egg", "Gem Chest"},
+  -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-	PLANT_EVENT_TREES = true,
-  
-    MAX_PLANTS = 150,
-    DESTROY_UNTIL_MIN_PLANTS = 100,
-    DELETE_PLANTS_AFTER_MAX = {},
+    BUY_EVENT_SHOP = { "Santa's Surprise Present" },
+    OPEN_ALL_PRESENT = true,
+    
+    MAX_PLANTS = 200,
+    DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = {"Strawberry"},
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
     PLACE_COSMETIC = { "Cooking Kit" },
-    
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -129,6 +127,8 @@ LIMIT_PLANT_SEED = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = {
+    "Krampus",
+	 ["Frost Dragon"] = 10,
     "Camel",
     ["Hydra"] = 10,
     "Lion",
