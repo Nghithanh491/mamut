@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MikuSolver</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="head">
+    <div class="logo" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#04141a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" />
+      </svg>
+    </div>
+    <div class="brand">
+      <b>Miku<span>Solver</span></b>
+      <small>FunCaptcha solver</small>
+    </div>
+    <span class="on-pill">● ON</span>
+  </div>
+
+  <div class="balance">
+    <div class="top">
+      <span class="label">Lượt còn lại</span>
+      <span class="spark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" />
+        </svg>
+      </span>
+    </div>
+    <div id="balNum" class="num dim">—</div>
+    <div class="sub">1 lượt = 1 captcha giải xong</div>
+  </div>
+
+  <div class="field">
+    <label for="apiKey">API Key</label>
+    <div class="inp">
+      <input type="password" id="apiKey" placeholder="Dán API key của bạn" autocomplete="off" spellcheck="false" />
+      <button type="button" id="eye" class="icon-btn" aria-label="Hiện/ẩn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z" /><circle cx="12" cy="12" r="3" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="apiBase">Server</label>
+    <div class="inp">
+      <input type="text" id="apiBase" placeholder="https://mikusolver.com" autocomplete="off" spellcheck="false" />
+    </div>
+  </div>
+
+  <button type="button" id="save" class="btn">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#04141a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
+    Lưu &amp; kiểm tra
+  </button>
+  <div id="status" class="status"></div>
+
+  <div class="foot">
+    <span>v1.0.2</span>
+    <a id="dash" href="#" target="_blank" rel="noreferrer">Mua thêm lượt →</a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
